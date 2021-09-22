@@ -9,8 +9,9 @@ which lets you configure the rules, the files and directories that
 need to be analyzed. You may also create ``.php-cs-fixer.php`` file, which is
 the local configuration that will be used instead of the project configuration. It
 is a good practice to add that file into your ``.gitignore`` file.
-With the ``--config`` option you can specify the path to the
-``.php-cs-fixer.php`` file.
+You can specify the path to the ``.php-cs-fixer.php`` file by using the ``--config`` option with the ``fix`` command:
+
+``php-cs-fixer fix --config ./path/to/.php-cs-fixer.php``
 
 The example below will add two rules to the default list of PSR12 set rules:
 
